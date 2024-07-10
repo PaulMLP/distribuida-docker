@@ -37,4 +37,6 @@ dependencies {
     implementation("io.smallrye.stork:stork-service-discovery-consul:2.6.0")
     implementation("io.smallrye.reactive:smallrye-mutiny-vertx-consul-client")
 
+    // --Health
+    implementation("io.quarkus:quarkus-smallrye-health")
 }

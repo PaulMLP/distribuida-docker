@@ -44,7 +44,7 @@ public class AuthorsLifeCycle {
         serviceId = UUID.randomUUID().toString();
         //tambien puedes poner otros atributos for example name addres
         var ipAddress = InetAddress.getLocalHost();
-        String httpCheckUrl = String.format("http://%s:%d/authors", ipAddress.getHostAddress(), port);
+        String httpCheckUrl = String.format("http://%s:%d/q/health/live", ipAddress.getHostAddress(), port);
 
         client.registerServiceAndAwait(
                 new ServiceOptions()

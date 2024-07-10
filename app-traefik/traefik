@@ -26,3 +26,6 @@ Ejecutar:
 
 Consola de Administracion:
     localhost:8500
+
+Docker comopose
+    docker-compose up
